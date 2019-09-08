@@ -3,7 +3,7 @@
 
 <head>
 <meta charset= "charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
 Abdulhakeem's CV
 </title>
@@ -79,11 +79,11 @@ Abdulhakeem's CV
 <li>Malay</li>
 </ul>
 </div>
-<div id='forms' class='new-section' action="message.html" method="post" onSubmit=" return validateTextbox();">
+<div id='forms' class='new-section' >
 <div id="form" class='section-body'>
 <fieldset>
 <legend><strong>Contact Form</strong></legend>
-<form	action="submited.html" method="post">
+<form	 onSubmit=" return validateTextbox();">
 <div class="struct">
 <label for= 'firstname'>Firstname:</label>
 <input type="text" name="firtsname" id="firstname" placeholder="Firstname (A-Z)" minlength="4"  ><br/>
@@ -94,13 +94,13 @@ Abdulhakeem's CV
 </div>
 <div class="struct">
 <label for='firstname'>Email:</label>
-<input type="email"	id="email"name="email" placeholder="example@host.com" required> <br/>
+<input type="email"	name="email" id="email" placeholder="example@host.com" required> <br/>
 </div>
-<div> 
+<div class="struct"> 
 <label for= 'Title'>Title:</label>
 <input type="text" name="title" id="title" placeholder="Title" minlength="4" ><br/>
 </div>
-<div>
+<div class="">
 <label for= 'Textarea'>Message:</label> <br/>
 <textarea	name="message"	id="textarea" rows="10" minlength="20"  > </textarea>
 </div>
