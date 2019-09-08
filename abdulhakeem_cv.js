@@ -7,5 +7,3 @@ if(box0.value==""|| box1.value==""||box2.value== ""||box3.value== "" ){
 alert("Fill in the empty fields before submitting");
 return false;
 }
-
-}
